@@ -103,7 +103,7 @@ function MyTabs() {
       />
 
 
-      <Tab.Screen
+      {/* <Tab.Screen
         name="Agendamento"
         component={AulaStack}
         options={{
@@ -112,7 +112,7 @@ function MyTabs() {
           ),
           tabBarLabel: "Agendamento",
         }}
-      />
+      /> */}
       {/* <Tab.Screen
         name="Treino"
         component={TreinoStack}
@@ -139,8 +139,8 @@ function MyTabs() {
 function LoginScreen({ navigation }) {
   const [isFocused, setIsFocused] = React.useState(false);
   return (
-    <SafeAreaView style={{ flex: 1, alignItems: "center", backgroundColor: "grey", justifyContent: "center" }}>
-      <Image style={styles.img} source={require("./assets/LogoSemFundo.jpg")} />
+    <SafeAreaView style={{ flex: 1, alignItems: "center", backgroundColor: "#7A58DB", justifyContent: "center" }}>
+      <Image style={styles.img} source={require("./assets/Inova_Network.png")} />
       <Text style={styles.text}>LOGIN</Text>
       <TextInput
         style={[styles.input, isFocused && styles.focusedInput]}
@@ -173,7 +173,7 @@ function LoginScreen({ navigation }) {
 function ResetScreen({ navigation }) {
   return (
     <View style={styles.resetContainer}>
-      <Image style={styles.img} source={require("./assets/LogoSemFundo.jpg")} />
+      <Image style={styles.img} source={require("./assets/Inova_Network.png")} />
       <Text style={styles.instructionText}>Preencha seus Dados</Text>
       <TextInput style={styles.inputField} placeholder="Seu email" />
       <TextInput style={styles.inputField} placeholder="Sua Data Nasc" />

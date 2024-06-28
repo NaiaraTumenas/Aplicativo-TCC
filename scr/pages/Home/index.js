@@ -12,7 +12,7 @@ export default function Home() {
   const [isFocused, setIsFocused] = React.useState(false);
   return (
     <View style={styles.container}>
-        <Image style={styles.img} source={require("../../../assets/logo1.png")} />
+        <Image style={styles.img} source={require("../../../assets/Inova_Network.png")} />
         
         <Text style={styles.text}>LOGIN</Text>
         <TextInput
@@ -60,8 +60,10 @@ const styles = StyleSheet.create({
     letterSpacing: 2,
   },
   img: {
-    width: 300,
-    height: 100,
+    width: 10,
+    height: 10,
+
+
   },
 
   input: {
