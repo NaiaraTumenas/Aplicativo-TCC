@@ -37,7 +37,7 @@ export default function Home({ navigation }) {
 
         <Image
           style={styles.workoutImage}
-          source={require('../../assets/banner5.jpg')}
+          source={require('../../assets/Desenho_digital.png')}
           resizeMode="contain"
         />
 

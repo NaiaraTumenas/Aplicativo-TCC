@@ -139,7 +139,7 @@ function MyTabs() {
 function LoginScreen({ navigation }) {
   const [isFocused, setIsFocused] = React.useState(false);
   return (
-    <SafeAreaView style={{ flex: 1, alignItems: "center", backgroundColor: "#7A58DB", justifyContent: "center" }}>
+    <SafeAreaView style={{ flex: 1, alignItems: "center", backgroundColor: "rgb(17,36,92)", justifyContent: "center" }}>
       <Image style={styles.img} source={require("./assets/Inova_Network.png")} />
       <Text style={styles.text}>LOGIN</Text>
       <TextInput
