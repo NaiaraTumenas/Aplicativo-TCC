@@ -16,9 +16,9 @@ export default function Perfil() {
       <ScrollView contentContainerStyle={styles.scrollViewContent}>
         {/* Ícone para a foto de perfil */}
         <View style={styles.profileIconContainer}>
-          <Ionicons name="person-circle-outline" size={150} color="#34495e" />
+          <Ionicons name="person-circle-outline" size={150} color="white" />
           <TouchableOpacity style={styles.editIconContainer}>
-            <Ionicons name="create-outline" size={24} color="#f1c40f" />
+            <Ionicons name="create-outline" size={24} color="white" />
           </TouchableOpacity>
         </View>
 
@@ -27,27 +27,27 @@ export default function Perfil() {
           <TextInput
             style={styles.input}
             placeholder="Nome"
-            placeholderTextColor="#34495e"
+            placeholderTextColor="white"
           />
           <TextInput
             style={styles.input}
             placeholder="Data de Nascimento"
-            placeholderTextColor="#34495e"
+            placeholderTextColor="white"
           />
           <TextInput
             style={styles.input}
             placeholder="Telefone"
-            placeholderTextColor="#34495e"
+            placeholderTextColor="white"
           />
           <TextInput
             style={styles.input}
             placeholder="Email"
-            placeholderTextColor="#34495e"
+            placeholderTextColor="white"
           />
           <TextInput
             style={styles.input}
             placeholder="Senha"
-            placeholderTextColor="#34495e"
+            placeholderTextColor="white"
             secureTextEntry={true}
           />
         </View>
@@ -64,7 +64,7 @@ export default function Perfil() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "grey", // Fundo branco
+    backgroundColor: "rgb(17,36,92)", // Fundo branco
   },
   scrollViewContent: {
     flexGrow: 1,
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
   },
   saveButton: {
     marginTop: 20,
-    backgroundColor: "#191970",
+    backgroundColor: "#f1c40f",
     padding: 8,
     borderRadius: 10,
     alignItems: "center",

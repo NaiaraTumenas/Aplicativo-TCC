@@ -65,7 +65,7 @@ export default function Video() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff'
+    backgroundColor: "rgb(17,36,92)",
   },
   backIcon: {
     margin: 16

@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     fontSize: 40,
     margin: 30,
     fontWeight: "bold",
-    color: "#34495e",
+    color: "#48c9b0",
     letterSpacing: 2,
   },
   img: {

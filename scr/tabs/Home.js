@@ -41,14 +41,14 @@ export default function Home({ navigation }) {
           resizeMode="contain"
         />
 
-        <View style={styles.upgradeButtonContainer}>
+        {/* <View style={styles.upgradeButtonContainer}>
           <TouchableOpacity
             style={styles.upgradeButton}
             onPress={() => navigation.navigate('Esqueci Senha')}
           >
             <Text style={styles.upgradeButtonText}>Upgrade do Plano</Text>
           </TouchableOpacity>
-        </View>
+        </View> */}
       </ScrollView>
     </SafeAreaView>
   );
@@ -57,7 +57,7 @@ export default function Home({ navigation }) {
 const styles = StyleSheet.create({
   homeContainer: {
     flex: 1,
-    backgroundColor: 'grey',
+    backgroundColor: "rgb(17,36,92)",
   },
 
   scrollViewContent: {
@@ -70,14 +70,14 @@ const styles = StyleSheet.create({
   },
   greetingText: {
     fontSize: 18,
-    color: '#34495E',
+    color: 'white',
     borderBottomWidth: 2,
     borderBottomColor: '#48C9B0',
     fontWeight: 'bold',
   },
   planText: {
     fontSize: 22,
-    color: '#34495E',
+    color: 'white',
   },
   sessionInfoContainer: {
     alignItems: 'center',
@@ -88,6 +88,7 @@ const styles = StyleSheet.create({
   sessionInfoText: {
     fontSize: 30,
     fontWeight: 'bold',
+    color: 'white',
   },
   buttonRow: {
     flexDirection: 'row',
