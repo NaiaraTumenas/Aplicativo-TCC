@@ -1,11 +1,11 @@
 import React from "react";
-import { View, Text, StyleSheet, SafeAreaView, ScrollView, TouchableOpacity, Image } from "react-native";
+import { View, Text, StyleSheet, SafeAreaView, ScrollView, TouchableOpacity, Image, ImageBackground } from "react-native";
 
 export default function Home({ navigation }) {
   return (
     <SafeAreaView style={styles.homeContainer}>
       <ScrollView contentContainerStyle={styles.scrollViewContent}>
-        
+      {/* <ImageBackground source={require('../../assets/tela.png')} resizeMode="cover" > */}
         <View style={styles.headerContainer}>
           <Text style={styles.greetingText}>Olá, usuário!</Text>
           <Text style={styles.planText}>Plano Microempreendedor</Text>
@@ -50,6 +50,7 @@ export default function Home({ navigation }) {
             <Text style={styles.upgradeButtonText}>Upgrade do Plano</Text>
           </TouchableOpacity>
         </View> */}
+        {/* </ImageBackground> */}
       </ScrollView>
     </SafeAreaView>
   );
