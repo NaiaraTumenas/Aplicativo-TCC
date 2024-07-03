@@ -45,7 +45,9 @@ export default function Matricula({ navigation }) {
           style={styles.picker}
           onValueChange={onClassChange}
         >
+          <Picker.Item label="Carlos" value="Carlos" />
           <Picker.Item label="Evelyn" value="Evelyn" />
+          <Picker.Item label="Higor" value="Higor" />
           <Picker.Item label="Naiara" value="Naiara" />
           <Picker.Item label="Leonardo" value="Leonardo" />
         </Picker>
@@ -69,7 +71,7 @@ export default function Matricula({ navigation }) {
         current={selectedDate}
         onDayPress={onDateChange}
         markedDates={{
-          [selectedDate]: {selected: true, marked: true, selectedColor: 'blue'}
+          [selectedDate]: {selected: true, marked: true, selectedColor: 'rgb(17,36,92)'}
         }}
       />
       
@@ -87,7 +89,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#fff',
+    backgroundColor: 'rgb(17,36,92)',
    
   },
   title: {
@@ -95,7 +97,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     marginVertical: 20,
-    color: '#333',
+    color: 'white',
   },
   pickerContainer: {
     flexDirection: 'row',
@@ -105,7 +107,7 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize: 18,
-    color: '#333',
+    color: 'white',
   },
   picker: {
     flex: 1,

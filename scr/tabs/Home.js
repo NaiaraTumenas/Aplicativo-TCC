@@ -16,6 +16,7 @@ export default function Home({ navigation }) {
         </View>
 
         <View style={styles.sessionInfoContainer}>
+        { <Text style={styles.sessionInfoText3}>CRESCENDO COM SUA STARTUP</Text> }
           <Text style={styles.sessionInfoText}>Agende uma mentoria</Text>
           { <Text style={styles.sessionInfoText2}>conosco</Text> }
         </View>
@@ -86,7 +87,7 @@ const styles = StyleSheet.create({
   sessionInfoContainer: {
     alignItems: 'center',
     width: '100%',
-    marginTop: 70,
+    marginTop: 60,
     marginBottom: 40, 
   },
   sessionInfoText: {
@@ -94,7 +95,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: 'white',
     fontFamily: 'Gabriola',
-    textAlign: 'center'
+    textAlign: 'center',
+    marginTop: 50,
   },
 
   sessionInfoText2:{
@@ -104,6 +106,16 @@ const styles = StyleSheet.create({
     fontFamily: 'Gabriola',
     textAlign: 'center',
     marginTop: -25,
+  },
+
+  sessionInfoText3: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: '#f1a157',
+    fontFamily: 'sans-serif',
+    textAlign: 'center',
+    marginTop: -25,
+
   },
 
   buttonRow: {
