@@ -69,7 +69,7 @@ function PerfilStack() {
 function VideoStack() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Perfil" component={Video} />
+      <Stack.Screen name="Palestras" component={Video} />
     </Stack.Navigator>
   );
 }
@@ -141,7 +141,7 @@ function LoginScreen({ navigation }) {
   return (
     <SafeAreaView style={{ flex: 1, alignItems: "center", backgroundColor: "rgb(17,36,92)", justifyContent: "center" }}>
       <Image style={styles.img} source={require("./assets/Inova_Network.png")} />
-      <Text style={styles.text}>LOGIN</Text>
+      <Text style={styles.text}>FAÇA O SEU LOGIN</Text>
       <TextInput
         style={[styles.input, isFocused && styles.focusedInput]}
         placeholder="Digite seu e-mail:"
@@ -223,15 +223,17 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   text: {
-    fontSize: 40,
+    fontSize: 35,
     margin: 30,
     fontWeight: "bold",
-    color: "grey",
+    color: "white",
     letterSpacing: 2,
+    textAlign: 'center',
+    fontFamily: 'Gabriola',
   },
   img: {
-    width: 150,
-    height: 150,
+    width: 87,
+    height: 100,
   },
   input: {
     borderBottomWidth: 3,
@@ -240,16 +242,17 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginBottom: 20,
     padding: 10,
+    color: 'white',
   },
   btn: {
-    backgroundColor: "#f1c40f",
+    backgroundColor: "#f1a157",
     padding: 10,
-    borderRadius: 5,
+    borderRadius: 20,
     width: 150,
   },
   btnText: {
     color: "#fff",
-    backgroundColor: "#f1c40f",
+    backgroundColor: "#f1a157",
     fontSize: 16,
     fontWeight: "bold",
     textAlign: "center",
@@ -261,6 +264,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
+    backgroundColor: "rgb(17,36,92)",
   },
   logoImage: {
     width: 135,
@@ -269,7 +273,7 @@ const styles = StyleSheet.create({
   },
   instructionText: {
     fontSize: 25,
-    color: "#23475F",
+    color: "white",
     marginTop: 15,
   },
   inputField: {
@@ -278,6 +282,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2,
     borderBottomColor: "#48C9B0",
     marginTop: 10,
+    color: 'white',
   },
   buttonContainer: {
     flexDirection: "row",
@@ -288,7 +293,7 @@ const styles = StyleSheet.create({
   resetButton: {
     width: "40%",
     height: 40,
-    backgroundColor: "#34495E",
+    backgroundColor: "#f1a157",
     borderRadius: 20,
     alignItems: "center",
     justifyContent: "center",

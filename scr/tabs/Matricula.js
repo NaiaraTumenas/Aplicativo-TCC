@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   confirmButton: {
-    backgroundColor: '#191970',
+    backgroundColor: '#f1a157',
     width: '60%',
     padding: 15,
     justifyContent: 'center',

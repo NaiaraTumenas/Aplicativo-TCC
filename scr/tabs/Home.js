@@ -8,7 +8,7 @@ export default function Home({ navigation }) {
         
         <View style={styles.headerContainer}>
           <Text style={styles.greetingText}>Olá, usuário!</Text>
-          <Text style={styles.planText}>Microempreendedor</Text>
+          <Text style={styles.planText}>Plano Microempreendedor</Text>
         </View>
 
         <View>
@@ -17,7 +17,7 @@ export default function Home({ navigation }) {
 
         <View style={styles.sessionInfoContainer}>
           <Text style={styles.sessionInfoText}>Agende uma mentoria</Text>
-          <Text style={styles.sessionInfoText}>conosco</Text>
+          { <Text style={styles.sessionInfoText2}>conosco</Text> }
         </View>
 
         <View style={styles.buttonRow}>
@@ -65,42 +65,58 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   headerContainer: {
+    marginTop: 20,
     alignItems: 'center',
     width: '100%',
   },
   greetingText: {
-    fontSize: 18,
+    fontSize: 30,
     color: 'white',
     borderBottomWidth: 2,
     borderBottomColor: '#48C9B0',
     fontWeight: 'bold',
+    fontFamily: 'Gabriola',
   },
   planText: {
-    fontSize: 22,
+    fontSize: 25,
     color: 'white',
+    marginTop: 10,
+    fontFamily: 'Gabriola',
   },
   sessionInfoContainer: {
     alignItems: 'center',
     width: '100%',
     marginTop: 70,
-    marginBottom: 40,
+    marginBottom: 40, 
   },
   sessionInfoText: {
-    fontSize: 30,
+    fontSize: 42,
     fontWeight: 'bold',
     color: 'white',
+    fontFamily: 'Gabriola',
+    textAlign: 'center'
   },
+
+  sessionInfoText2:{
+    fontSize: 42,
+    fontWeight: 'bold',
+    color: 'white',
+    fontFamily: 'Gabriola',
+    textAlign: 'center',
+    marginTop: -25,
+  },
+
   buttonRow: {
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
     width: '100%',
-    marginTop: 20,
+    marginTop: 10,
   },
   accessClassButton: {
     width: '40%',
     height: 40,
-    backgroundColor: '#34495E',
+    backgroundColor: "#f1a157",
     borderRadius: 20,
     alignItems: 'center',
     justifyContent: 'center',
@@ -121,6 +137,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontWeight: 'bold',
     fontSize: 15,
+    backgroundColor: "#f1a157",
   },
   workoutImage: {
     width: 300,

@@ -74,7 +74,8 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     textAlign: 'center',
-    marginVertical: 10
+    marginVertical: 10,
+    color: 'white',
   },
   aulaContainer: {
     marginBottom: 20,
@@ -100,7 +101,8 @@ const styles = StyleSheet.create({
   title: {
     color: '#fff',
     fontSize: 24,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    textAlign: 'center'
   },
   description: {
     color: '#fff',
@@ -110,7 +112,7 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: 20,
-    backgroundColor: '#4ACFAC',
+    backgroundColor: '#f1a157',
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 20
@@ -118,6 +120,7 @@ const styles = StyleSheet.create({
   buttonText: {
     color: '#fff',
     fontSize: 16,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    textAlign: 'center'
   }
 });

@@ -60,10 +60,8 @@ const styles = StyleSheet.create({
     letterSpacing: 2,
   },
   img: {
-    width: 10,
-    height: 10,
-
-
+    width: 5,
+    height: 5,
   },
 
   input: {
@@ -73,9 +71,10 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginBottom: 20,
     padding: 10,
+    color: 'white',
   },
   btn: {
-    backgroundColor: "#f1c40f",
+    backgroundColor: "red",
     padding: 10,
     borderRadius: 5,
     width: 150,

@@ -1,2 +1,0 @@
-# Aplicativo TCC
- Aplicativo TCC

@@ -90,11 +90,11 @@ const styles = StyleSheet.create({
     padding: 10,
     borderBottomWidth: 1,
     borderBottomColor: "#f1c40f", // Cor da borda inferior dos inputs
-    color: "black", // Cor do texto dos inputs
+    color: "white", // Cor do texto dos inputs
   },
   saveButton: {
     marginTop: 20,
-    backgroundColor: "#f1c40f",
+    backgroundColor: "#f1a157",
     padding: 8,
     borderRadius: 10,
     alignItems: "center",
